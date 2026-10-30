@@ -1,0 +1,6 @@
+# Desktop development (Windows/Linux). Android deps live in buildozer.spec.
+kivy==2.3.1
+pillow>=10.0
+numpy>=1.26
+pytest>=8.0
+plyer>=2.1

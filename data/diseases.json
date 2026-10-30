@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "disclaimer": "This information is educational and general. A model prediction is not a confirmed diagnosis. Local conditions, crop variety and regulations matter, so confirm with a local agricultural extension officer or plant pathologist before treating crops.",
+  "plants": {
+    "tomato": {
+      "display_name": "Tomato",
+      "diseases": {
+        "bacterial_spot": {
+          "name": "Bacterial spot",
+          "category": "Bacterial disease",
+          "summary": "Caused by Xanthomonas bacteria. It spreads in warm, wet weather through splashing water, infected seed and transplants, and contaminated tools or hands.",
+          "symptoms": ["Small, dark, water-soaked spots on leaves that may turn brown or black", "Spots can have a yellow halo and may tear out, leaving a shot-hole look", "Raised, scabby spots on green fruit"],
+          "prevention": ["Start with certified disease-free seed and healthy transplants", "Avoid overhead watering; water at the base", "Do not handle plants while foliage is wet", "Rotate away from tomato and pepper for at least 2 to 3 years", "Remove and destroy crop debris after harvest"],
+          "care": ["Space and stake plants so leaves dry quickly", "Remove heavily affected leaves and dispose of them away from the garden", "Disinfect tools between plants"],
+          "expert_advice": "If spots keep spreading, reach fruit, or you grow tomatoes commercially, ask a local extension service which control options are approved and effective in your area."
+        },
+        "early_blight": {
+          "name": "Early blight",
+          "category": "Fungal disease",
+          "summary": "Caused by the fungus Alternaria solani. It usually starts on older, lower leaves and is favoured by warm weather with alternating wet and dry periods.",
+          "symptoms": ["Brown spots with concentric rings, like a target", "Yellowing of tissue around the spots; lower leaves die first", "Dark, sunken lesions on stems or near the fruit stalk"],
+          "prevention": ["Rotate crops and avoid planting tomatoes or potatoes in the same spot every year", "Mulch to reduce soil splash", "Use drip or base watering", "Remove lower leaves touching the soil and clear plant debris", "Keep plants well nourished and not water-stressed"],
+          "care": ["Prune lower leaves and stake plants for airflow", "Remove infected leaves early", "Avoid working among wet plants"],
+          "expert_advice": "If more than a few lower leaves are affected, or the disease reaches upper leaves, stems or fruit, consult a local expert about management suited to your region."
+        },
+        "late_blight": {
+          "name": "Late blight",
+          "category": "Oomycete (water mould) disease",
+          "summary": "Caused by Phytophthora infestans. It spreads very fast in cool, humid or rainy weather and can destroy plants within days. It also affects potatoes.",
+          "symptoms": ["Large, irregular, water-soaked patches that turn dark brown or greenish-grey", "White fuzzy growth on the underside of leaves in humid conditions", "Firm, brown, greasy-looking patches on fruit", "Dark lesions on stems"],
+          "prevention": ["Use healthy transplants and resistant varieties where available", "Avoid overhead watering and improve airflow", "Remove volunteer tomato and potato plants", "Check plants often during cool, wet spells"],
+          "care": ["Remove and bag suspected plants promptly; do not compost them", "Do not move infected plant material between plots"],
+          "expert_advice": "Treat suspected late blight as urgent. Contact a local extension service or plant clinic quickly, because it can spread to neighbouring tomato and potato crops."
+        },
+        "leaf_mold": {
+          "name": "Leaf mold",
+          "category": "Fungal disease",
+          "summary": "Caused by the fungus Passalora fulva. It thrives in high humidity and poor airflow, and is especially common in greenhouses and tunnels.",
+          "symptoms": ["Pale green to yellow spots on the upper leaf surface", "Olive-green to brownish velvety mold on the underside of the same spots", "Leaves curl, wither and drop in severe cases"],
+          "prevention": ["Ventilate greenhouses and tunnels to reduce humidity", "Space plants and prune for airflow", "Water at the base, early in the day", "Choose resistant varieties where available", "Clean up plant debris at season end"],
+          "care": ["Remove affected leaves", "Avoid wetting foliage"],
+          "expert_advice": "If it keeps returning in a greenhouse or spreads to many plants, ask an expert about humidity management and suitable varieties for your setup."
+        },
+        "mosaic_virus": {
+          "name": "Tomato mosaic virus",
+          "category": "Viral disease",
+          "summary": "A very stable virus that spreads mainly by hands, tools, plant contact and contaminated seed or debris. There is no cure for infected plants.",
+          "symptoms": ["Mottled light and dark green patches on leaves", "Distorted, narrow or fern-like leaves", "Stunted growth and uneven fruit ripening"],
+          "prevention": ["Use certified virus-free seed and resistant varieties where available", "Wash hands with soap and disinfect tools between plants", "Avoid handling tobacco products before touching plants", "Remove infected plants and weeds nearby", "Do not reuse stakes or trays without cleaning them"],
+          "care": ["Handle healthy plants before suspected ones", "Bag and discard infected plants; do not compost"],
+          "expert_advice": "Virus symptoms can resemble herbicide drift or nutrient problems. Ask an expert to confirm, because the right response depends on the exact cause."
+        },
+        "septoria_leaf_spot": {
+          "name": "Septoria leaf spot",
+          "category": "Fungal disease",
+          "summary": "Caused by the fungus Septoria lycopersici. It usually appears on lower leaves after fruit set and spreads by splashing water in warm, wet weather.",
+          "symptoms": ["Many small, round spots with dark borders and grey-white centers", "Tiny black specks inside the spot centers", "Lower leaves yellow, wither and fall, exposing fruit to sunburn"],
+          "prevention": ["Rotate crops and avoid planting tomatoes in the same place each year", "Mulch and water at the base", "Remove lower leaves and plant debris", "Space and stake plants for airflow"],
+          "care": ["Remove affected leaves early", "Avoid handling wet plants"],
+          "expert_advice": "If defoliation is spreading upward or affecting yield, ask a local expert about control options suited to your region."
+        },
+        "spider_mites": {
+          "name": "Spider mites (two-spotted)",
+          "category": "Pest damage (not a disease)",
+          "summary": "Tiny sap-feeding mites that build up in hot, dry, dusty conditions. They are a pest, so the damage is caused by feeding rather than by an infection.",
+          "symptoms": ["Fine yellow or white stippling on leaves", "Bronzed, dry-looking leaves that may curl and drop", "Fine webbing on the underside of leaves or between stems in heavy infestations"],
+          "prevention": ["Check leaf undersides regularly with a hand lens", "Avoid drought stress; keep plants evenly watered", "Reduce dust around plants", "Protect natural enemies such as predatory mites and ladybirds"],
+          "care": ["On small plantings, a firm spray of water on the leaf undersides can reduce numbers", "Remove heavily infested leaves"],
+          "expert_advice": "Mite problems can escalate quickly in hot weather. Ask a local expert about control options that are safe for beneficial insects and suitable for your region."
+        },
+        "target_spot": {
+          "name": "Target spot",
+          "category": "Fungal disease",
+          "summary": "Caused by the fungus Corynespora cassiicola. It favours warm, humid weather and can affect leaves, stems and fruit.",
+          "symptoms": ["Brown spots with concentric rings and sometimes a yellow halo", "Spots that merge and cause leaves to die", "Sunken, pitted spots on fruit"],
+          "prevention": ["Rotate crops and clear plant debris", "Water at the base and avoid wetting leaves", "Prune and space plants for airflow", "Control weeds that hold moisture"],
+          "care": ["Remove affected lower leaves", "Do not work in the crop when leaves are wet"],
+          "expert_advice": "Target spot looks very similar to early blight. Ask a local expert to confirm the cause before choosing a management plan."
+        },
+        "yellow_leaf_curl_virus": {
+          "name": "Tomato yellow leaf curl virus",
+          "category": "Viral disease (spread by whiteflies)",
+          "summary": "Spread by the whitefly Bemisia tabaci. Infected plants cannot be cured, and early infection can greatly reduce yield.",
+          "symptoms": ["Leaves curl upward and become small and crinkled", "Yellowing along leaf edges", "Stunted, bushy plants and flower drop"],
+          "prevention": ["Plant resistant or tolerant varieties where available", "Use fine insect-proof netting over seedlings and young plants", "Monitor whiteflies, for example with yellow sticky traps", "Remove infected plants and nearby weeds that host whiteflies", "Do not move plants from infested areas"],
+          "care": ["Remove and bag infected plants early to reduce spread", "Inspect new transplants before planting"],
+          "expert_advice": "If this virus is suspected, contact a local extension service. Whitefly control and resistant varieties are most effective when coordinated across a whole area."
+        },
+        "healthy": {
+          "name": "Healthy leaf",
+          "category": "No disease detected by the model",
+          "summary": "The model did not find signs of the conditions it knows. This does not rule out other problems, such as very early infection, nutrient deficiency, or diseases the model was not trained on.",
+          "symptoms": ["Even green color, no spots, curling or distortion"],
+          "prevention": ["Water at the base and avoid wetting leaves", "Keep good airflow with spacing and pruning", "Rotate crops and remove plant debris", "Inspect plants weekly, including leaf undersides"],
+          "care": ["Feed and water consistently", "Re-check the plant if you notice any new spots or changes"],
+          "expert_advice": "If the plant still looks unwell, ask a local expert or take clearer photos from several leaves."
+        }
+      }
+    }
+  }
+}

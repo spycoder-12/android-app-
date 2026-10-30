@@ -1,0 +1,4 @@
+# Only needed for model training (Phase 4). Keep out of the app build.
+tensorflow>=2.16
+scikit-learn
+matplotlib

@@ -1,0 +1,6 @@
+{
+ "min_confidence": 0.77,
+ "val_accuracy_when_accepted": 0.9802,
+ "val_coverage": 0.9305,
+ "min_margin": 0.15
+}

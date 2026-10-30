@@ -1,0 +1,13 @@
+{
+ "numpy_vs_keras": {
+  "n": 150,
+  "max_abs_diff": 1.8775463104248047e-06,
+  "argmax_agreement": 1.0,
+  "ms_per_image_on_this_machine": 3.4
+ },
+ "tflite_vs_keras": {
+  "n": 50,
+  "max_abs_diff": 1.0728836059570312e-06,
+  "argmax_agreement": 1.0
+ }
+}

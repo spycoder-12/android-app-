@@ -1,0 +1,56 @@
+{
+ "plant": "tomato",
+ "version": "1.0.0",
+ "backbone": "small_cnn",
+ "engine": "numpy",
+ "model_file": "tomato_cnn.npz",
+ "input_size": 112,
+ "normalization": "zero_1",
+ "resize_mode": "squash",
+ "channel_order": "RGB",
+ "class_keys": [
+  "bacterial_spot",
+  "early_blight",
+  "healthy",
+  "late_blight",
+  "leaf_mold",
+  "mosaic_virus",
+  "septoria_leaf_spot",
+  "spider_mites",
+  "target_spot",
+  "yellow_leaf_curl_virus"
+ ],
+ "class_labels": {
+  "bacterial_spot": "Bacterial spot",
+  "early_blight": "Early blight",
+  "healthy": "Healthy leaf",
+  "late_blight": "Late blight",
+  "leaf_mold": "Leaf mold",
+  "mosaic_virus": "Tomato mosaic virus",
+  "septoria_leaf_spot": "Septoria leaf spot",
+  "spider_mites": "Spider mites (two-spotted)",
+  "target_spot": "Target spot",
+  "yellow_leaf_curl_virus": "Tomato yellow leaf curl virus"
+ },
+ "thresholds": {
+  "min_confidence": 0.77,
+  "min_margin": 0.15
+ },
+ "dataset": "PlantVillage (tomato, color), leaf-grouped 70/15/15 split",
+ "evaluation": {
+  "n_test": 2698,
+  "accuracy": 0.9448,
+  "macro_f1": 0.9362,
+  "stress_test_accuracy_simulated": {
+   "darker": 0.6357,
+   "brighter": 0.8862,
+   "blur": 0.7906,
+   "crop": 0.8929,
+   "noise": 0.1916
+  },
+  "caveats": [
+   "Lab-condition PlantVillage images only; no real-world field photos were evaluated.",
+   "Leaf grouping is complete only for images present in the dataset's leaf-map; the rest use an approximate heuristic."
+  ]
+ }
+}

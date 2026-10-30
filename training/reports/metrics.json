@@ -1,0 +1,83 @@
+{
+ "split": "test",
+ "n_test": 2698,
+ "accuracy": 0.9448,
+ "macro_f1": 0.9362,
+ "weighted_f1": 0.9451,
+ "val_accuracy": 0.9606,
+ "test_accuracy_when_confident": 0.9751,
+ "test_coverage_at_threshold": 0.924,
+ "per_class": {
+  "bacterial_spot": {
+   "precision": 0.9162,
+   "recall": 0.9684,
+   "f1-score": 0.9415,
+   "support": 316
+  },
+  "early_blight": {
+   "precision": 0.9262,
+   "recall": 0.9324,
+   "f1-score": 0.9293,
+   "support": 148
+  },
+  "healthy": {
+   "precision": 0.8404,
+   "recall": 1.0,
+   "f1-score": 0.9133,
+   "support": 237
+  },
+  "late_blight": {
+   "precision": 0.975,
+   "recall": 0.9613,
+   "f1-score": 0.9681,
+   "support": 284
+  },
+  "leaf_mold": {
+   "precision": 0.9571,
+   "recall": 0.9571,
+   "f1-score": 0.9571,
+   "support": 140
+  },
+  "mosaic_virus": {
+   "precision": 0.9298,
+   "recall": 0.9815,
+   "f1-score": 0.955,
+   "support": 54
+  },
+  "septoria_leaf_spot": {
+   "precision": 1.0,
+   "recall": 0.9077,
+   "f1-score": 0.9516,
+   "support": 260
+  },
+  "spider_mites": {
+   "precision": 0.9044,
+   "recall": 0.9153,
+   "f1-score": 0.9098,
+   "support": 248
+  },
+  "target_spot": {
+   "precision": 0.8794,
+   "recall": 0.8333,
+   "f1-score": 0.8557,
+   "support": 210
+  },
+  "yellow_leaf_curl_virus": {
+   "precision": 1.0,
+   "recall": 0.9613,
+   "f1-score": 0.9803,
+   "support": 801
+  }
+ },
+ "stress_test_accuracy_simulated": {
+  "darker": 0.6357,
+  "brighter": 0.8862,
+  "blur": 0.7906,
+  "crop": 0.8929,
+  "noise": 0.1916
+ },
+ "caveats": [
+  "Lab-condition PlantVillage images only; no real-world field photos were evaluated.",
+  "Leaf grouping is complete only for images present in the dataset's leaf-map; the rest use an approximate heuristic."
+ ]
+}

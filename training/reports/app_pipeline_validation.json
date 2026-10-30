@@ -1,0 +1,9 @@
+{
+ "images": 2698,
+ "accuracy_all": 0.9448,
+ "answered_ok": 2491,
+ "accuracy_when_status_ok": 0.9755,
+ "inconclusive_share": 0.0767,
+ "flagged_not_leaf_heuristic": 5,
+ "ms_per_image_incl_decode": 16.1
+}
